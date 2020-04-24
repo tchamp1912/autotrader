@@ -5,7 +5,9 @@ description = "Automated Trading Platform"
 authors = ["Thomas Campion <campion.t@husky.neu.edu>"]
 
 [tool.poetry.dependencies]
-python = "3.7"
+python = "3.7.4"
+websocket-client = "^0.57.0"
+tdameritrade = "^0.1.0"
 
 [tool.poetry.dev-dependencies]
 
